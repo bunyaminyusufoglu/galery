@@ -1,0 +1,31 @@
+{
+  "huzur": [
+    { "id": 1, "src": "../images/huzur/1.webp", "alt": "Huzur 1" },
+    { "id": 2, "src": "../images/huzur/2.jpg", "alt": "Huzur 2" },
+    { "id": 3, "src": "../images/huzur/3.jpg", "alt": "Huzur 3" },
+    { "id": 4, "src": "../images/huzur/4.jpg", "alt": "Huzur 4" },
+    { "id": 5, "src": "../images/huzur/5.jpg", "alt": "Huzur 5" },
+    { "id": 6, "src": "../images/huzur/6.png", "alt": "Huzur 6" },
+    { "id": 7, "src": "../images/huzur/7.jpg", "alt": "Huzur 7" },
+    { "id": 8, "src": "../images/huzur/8.png", "alt": "Huzur 8" },
+    { "id": 9, "src": "../images/huzur/9.png", "alt": "Huzur 9" },
+    { "id": 10, "src": "../images/huzur/10.png", "alt": "Huzur 10" }
+  ],
+  "manzara": [
+    { "id": 1, "src": "../images/manzara/1.png", "alt": "Manzara 1" },
+    { "id": 2, "src": "../images/manzara/2.png", "alt": "Manzara 2" },
+    { "id": 3, "src": "../images/manzara/3.png", "alt": "Manzara 3" },
+    { "id": 4, "src": "../images/manzara/4.png", "alt": "Manzara 4" },
+    { "id": 5, "src": "../images/manzara/5.png", "alt": "Manzara 5" },
+    { "id": 6, "src": "../images/manzara/6.png", "alt": "Manzara 6" }
+  ],
+  "sevgi": [
+    { "id": 1, "src": "../images/sevgi/1.png", "alt": "Sevgi 1" },
+    { "id": 2, "src": "../images/sevgi/2.png", "alt": "Sevgi 2" },
+    { "id": 3, "src": "../images/sevgi/3.png", "alt": "Sevgi 3" },
+    { "id": 4, "src": "../images/sevgi/4.png", "alt": "Sevgi 4" },
+    { "id": 5, "src": "../images/sevgi/5.png", "alt": "Sevgi 5" },
+    { "id": 6, "src": "../images/sevgi/6.png", "alt": "Sevgi 6" },
+    { "id": 7, "src": "../images/sevgi/7.png", "alt": "Sevgi 7" }
+  ]
+}

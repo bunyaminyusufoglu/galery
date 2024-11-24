@@ -1,37 +1,56 @@
-import React, {Component} from 'react';
-
+import React, { Component } from "react";
 
 class Body extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            category: "huzur", // Varsayılan kategori
+            data: {} // Veriler JSON dosyasından yüklenecek
+        };
+    }
+
+    // JSON dosyasını yükleme
+    componentDidMount() {
+        // Eğer JSON bir dosya olarak public klasöründeyse, fetch kullanabilirsiniz
+        fetch("/db.json")
+            .then((response) => response.json())
+            .then((data) => this.setState({ data }))
+            .catch((error) => console.error("Veriler alınamadı:", error));
+    }
+
+    // Kategori değiştirme
+    handleCategoryChange = (category) => {
+        this.setState({ category });
+    };
+
     render() {
+        const { category, data } = this.state;
+        const images = data[category] || []; // Mevcut kategoriye göre görüntüleri al
+
         return (
             <div className="container">
+                {/* Navbar */}
                 <ul className="nav justify-content-center">
-                    <li className="nav-item">
-                        <a className="nav-link" href="#">Active</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#">ghj</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#">Link</a>
-                    </li>
+                    {Object.keys(data).map((cat) => (
+                        <li className="nav-item" key={cat}>
+                            <button
+                                className={`nav-link btn btn-link cat-link ${category === cat ? "cat-on" : ""}`}
+                                onClick={() => this.handleCategoryChange(cat)}
+                            >
+                                {cat.toUpperCase()}
+                            </button>
+                        </li>
+                    ))}
                 </ul>
-                <br/>
+                <br />
+                {/* Görüntü Galerisi */}
                 <div className="container text-center">
                     <div className="row row-cols-2 row-cols-md-4">
-                        <div className="col mb-3">
-                            <img className="img-fluid" src="../images/sevgi/1.webp" alt=""/>
-                        </div>
-                        <div className="col mb-3">
-                            <img className="img-fluid" src="../images/sevgi/2.jpg" alt=""/>
-                        </div>
-                        <div className="col mb-3">
-                            <img className="img-fluid" src="../images/sevgi/3.webp" alt=""/>
-                        </div>
-                        <div className="col mb-3">
-                            <img className="img-fluid" src="../images/sevgi/4.jpg" alt=""/>
-                        </div>
-
+                        {images.map((image) => (
+                            <div className="col mb-3" key={image.id}>
+                                <img className="img-fluid" src={image.src} alt={image.alt} />
+                            </div>
+                        ))}
                     </div>
                 </div>
             </div>
