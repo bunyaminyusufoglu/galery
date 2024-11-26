@@ -4,28 +4,27 @@ class Body extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            category: "huzur", // Varsayılan kategori
-            data: {} // Veriler JSON dosyasından yüklenecek
+            category: "love", // Default category
+            data: {} // Data will be loaded from JSON file
         };
     }
 
-    // JSON dosyasını yükleme
+    // Upload JSON file
     componentDidMount() {
-        // Eğer JSON bir dosya olarak public klasöründeyse, fetch kullanabilirsiniz
         fetch("/db.json")
             .then((response) => response.json())
             .then((data) => this.setState({ data }))
-            .catch((error) => console.error("Veriler alınamadı:", error));
+            .catch((error) => console.error("Failed to retrieve data:", error));
     }
 
-    // Kategori değiştirme
+    // Change category
     handleCategoryChange = (category) => {
         this.setState({ category });
     };
 
     render() {
         const { category, data } = this.state;
-        const images = data[category] || []; // Mevcut kategoriye göre görüntüleri al
+        const images = data[category] || []; // Get images by current category
 
         return (
             <div className="container">
@@ -43,7 +42,7 @@ class Body extends Component {
                     ))}
                 </ul>
                 <br />
-                {/* Görüntü Galerisi */}
+                {/* Image Gallery */}
                 <div className="container text-center">
                     <div className="row row-cols-2 row-cols-md-4">
                         {images.map((image) => (

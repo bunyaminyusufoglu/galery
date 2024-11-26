@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import {hydrateRoot} from "react-dom/client";
 
 class Header extends Component {
     render() {
@@ -7,7 +6,7 @@ class Header extends Component {
             <div className="container">
                 <nav className="navbar navbar-expand-lg">
                     <div className="container-fluid">
-                        <div className="logo me-5"><h1><a href="/">GALERY</a></h1></div>
+                        <div className="logo me-5"><h1><a href="/">GALLERY</a></h1></div>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
                                 aria-expanded="false" aria-label="Toggle navigation">

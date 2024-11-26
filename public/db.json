@@ -1,31 +1,36 @@
 {
-  "huzur": [
-    { "id": 1, "src": "../images/huzur/1.webp", "alt": "Huzur 1" },
-    { "id": 2, "src": "../images/huzur/2.jpg", "alt": "Huzur 2" },
-    { "id": 3, "src": "../images/huzur/3.jpg", "alt": "Huzur 3" },
-    { "id": 4, "src": "../images/huzur/4.jpg", "alt": "Huzur 4" },
-    { "id": 5, "src": "../images/huzur/5.jpg", "alt": "Huzur 5" },
-    { "id": 6, "src": "../images/huzur/6.png", "alt": "Huzur 6" },
-    { "id": 7, "src": "../images/huzur/7.jpg", "alt": "Huzur 7" },
-    { "id": 8, "src": "../images/huzur/8.png", "alt": "Huzur 8" },
-    { "id": 9, "src": "../images/huzur/9.png", "alt": "Huzur 9" },
-    { "id": 10, "src": "../images/huzur/10.png", "alt": "Huzur 10" }
+  "love": [
+    { "id": 1, "src": "../images/love/1.png", "alt": "Love 1" },
+    { "id": 2, "src": "../images/love/2.png", "alt": "Love 2" },
+    { "id": 3, "src": "../images/love/3.png", "alt": "Love 3" },
+    { "id": 4, "src": "../images/love/4.png", "alt": "Love 4" },
+    { "id": 5, "src": "../images/love/5.png", "alt": "Love 5" },
+    { "id": 6, "src": "../images/love/6.png", "alt": "Love 6" },
+    { "id": 7, "src": "../images/love/7.png", "alt": "Love 7" },
+    { "id": 8, "src": "../images/love/8.png", "alt": "Love 8" },
+    { "id": 9, "src": "../images/love/9.png", "alt": "Love 9" },
+    { "id": 10, "src": "../images/love/10.png", "alt": "Love 10" },
+    { "id": 11, "src": "../images/love/11.png", "alt": "Love 11" },
+    { "id": 12, "src": "../images/love/12.png", "alt": "Love 12" }
   ],
-  "manzara": [
-    { "id": 1, "src": "../images/manzara/1.png", "alt": "Manzara 1" },
-    { "id": 2, "src": "../images/manzara/2.png", "alt": "Manzara 2" },
-    { "id": 3, "src": "../images/manzara/3.png", "alt": "Manzara 3" },
-    { "id": 4, "src": "../images/manzara/4.png", "alt": "Manzara 4" },
-    { "id": 5, "src": "../images/manzara/5.png", "alt": "Manzara 5" },
-    { "id": 6, "src": "../images/manzara/6.png", "alt": "Manzara 6" }
+  "peace": [
+    { "id": 1, "src": "../images/peace/1.webp", "alt": "Peace 1" },
+    { "id": 2, "src": "../images/peace/2.jpg", "alt": "Peace 2" },
+    { "id": 3, "src": "../images/peace/3.jpg", "alt": "Peace 3" },
+    { "id": 4, "src": "../images/peace/4.jpg", "alt": "Peace 4" },
+    { "id": 5, "src": "../images/peace/5.jpg", "alt": "Peace 5" },
+    { "id": 6, "src": "../images/peace/6.png", "alt": "Peace 6" },
+    { "id": 7, "src": "../images/peace/7.jpg", "alt": "Peace 7" },
+    { "id": 8, "src": "../images/peace/8.png", "alt": "Peace 8" },
+    { "id": 9, "src": "../images/peace/9.png", "alt": "Peace 9" },
+    { "id": 10, "src": "../images/peace/10.png", "alt": "Peace 10" }
   ],
-  "sevgi": [
-    { "id": 1, "src": "../images/sevgi/1.png", "alt": "Sevgi 1" },
-    { "id": 2, "src": "../images/sevgi/2.png", "alt": "Sevgi 2" },
-    { "id": 3, "src": "../images/sevgi/3.png", "alt": "Sevgi 3" },
-    { "id": 4, "src": "../images/sevgi/4.png", "alt": "Sevgi 4" },
-    { "id": 5, "src": "../images/sevgi/5.png", "alt": "Sevgi 5" },
-    { "id": 6, "src": "../images/sevgi/6.png", "alt": "Sevgi 6" },
-    { "id": 7, "src": "../images/sevgi/7.png", "alt": "Sevgi 7" }
+  "view": [
+    { "id": 1, "src": "../images/view/1.png", "alt": "View 1" },
+    { "id": 2, "src": "../images/view/2.png", "alt": "View 2" },
+    { "id": 3, "src": "../images/view/3.png", "alt": "View 3" },
+    { "id": 4, "src": "../images/view/4.png", "alt": "View 4" },
+    { "id": 5, "src": "../images/view/5.png", "alt": "View 5" },
+    { "id": 6, "src": "../images/view/6.png", "alt": "View 6" }
   ]
 }
